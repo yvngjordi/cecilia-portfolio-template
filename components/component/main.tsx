@@ -32,9 +32,9 @@ export default function Main() {
       </nav>
       <div className="flex flex-col-reverse md:flex-row items-center justify-between bg-gray-100 p-6">
         <div className="space-y-4">
-          <h1 className="text-3xl md:text-5xl font-bold">Hi there! I'm Cecilia, a STEM Engineer.</h1>
+          <h1 className="text-3xl md:text-5xl font-bold">Hi there! I&apos;m Cecilia, a STEM Engineer.</h1>
           <p className="text-gray-600">
-            I'm a STEM Engineer based in  Florida. I specialize in developing innovative solutions for
+            I&apos;m a STEM Engineer based in  Florida. I specialize in developing innovative solutions for
             complex scientific and technological challenges.
           </p>
           <div className="flex space-x-2">
@@ -60,7 +60,7 @@ export default function Main() {
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-gray-600">
           I have a passion for solving problems using science and technology. With a strong background in both
-          theoretical and applied engineering, I love diving into new challenges and pushing the boundaries of what's
+          theoretical and applied engineering, I love diving into new challenges and pushing the boundaries of what&apos;s
           possible.
         </p>
       </div>
