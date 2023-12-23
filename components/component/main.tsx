@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <div className="flex flex-col">
       <nav className="flex justify-between items-center py-4 px-6 bg-white shadow-md">
-        <span className="text-xl font-bold">Cecilia</span>
+        <span className="text-xl font-bold text-black">Cecilia</span>
         <div className="hidden md:flex space-x-4">
           <a className="text-gray-600 hover:text-black" href="#">
             Home
@@ -32,7 +32,7 @@ export default function Main() {
       </nav>
       <div className="flex flex-col-reverse md:flex-row items-center justify-between bg-gray-100 p-6">
         <div className="space-y-4">
-          <h1 className="text-3xl md:text-5xl font-bold">Hi there! I&apos;m Cecilia, a STEM Engineer.</h1>
+          <h1 className="text-3xl md:text-5xl font-bold text-black">Hi there! I&apos;m Cecilia, a STEM Engineer.</h1>
           <p className="text-gray-600">
             I&apos;m a STEM Engineer based in  Florida. I specialize in developing innovative solutions for
             complex scientific and technological challenges.
@@ -57,7 +57,7 @@ export default function Main() {
         </div>
       </div>
       <div className="bg-white py-6 px-4 md:px-6">
-        <h2 className="text-2xl font-bold mb-4">About Me</h2>
+        <h2 className="text-2xl font-bold mb-4 text-black">About Me</h2>
         <p className="text-gray-600">
           I have a passion for solving problems using science and technology. With a strong background in both
           theoretical and applied engineering, I love diving into new challenges and pushing the boundaries of what&apos;s
@@ -65,7 +65,7 @@ export default function Main() {
         </p>
       </div>
       <div className="bg-gray-100 py-6 px-4 md:px-6">
-        <h2 className="text-2xl font-bold mb-4">My Skills</h2>
+        <h2 className="text-2xl font-bold mb-4 text-black">My Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <span className="inline-block bg-white rounded px-3 py-1 text-sm font-semibold text-gray-700">
             Problem Solving
@@ -88,7 +88,7 @@ export default function Main() {
         </div>
       </div>
       <div className="bg-white py-6 px-4 md:px-6">
-        <h2 className="text-2xl font-bold mb-4">Connect with Me</h2>
+        <h2 className="text-2xl font-bold mb-4 text-black">Connect with Me!</h2>
         <p className="text-gray-600 mb-4">Get in touch with me on LinkedIn or check out my projects on Github.</p>
         <div className="flex space-x-2">
           <Button className="bg-blue-600 hover:bg-blue-700 text-white w-full flex items-center justify-center">
@@ -102,7 +102,7 @@ export default function Main() {
         </div>
       </div>
       <div className="bg-white py-6 px-4 md:px-6">
-        <h2 className="text-2xl font-bold mb-4">Recent Projects</h2>
+        <h2 className="text-2xl font-bold mb-4 text-black">Recent Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <img
             alt="Project 1"
