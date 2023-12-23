@@ -178,7 +178,7 @@ export default function Main() {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: any) {
   return (
     <svg
       {...props}
@@ -200,7 +200,7 @@ function LinkedinIcon(props) {
 }
 
 
-function GithubIcon(props) {
+function GithubIcon(props: any) {
   return (
     <svg
       {...props}
@@ -221,7 +221,7 @@ function GithubIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: any) {
   return (
     <svg
       {...props}
